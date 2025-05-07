@@ -1,0 +1,106 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+b{
+    font-weight: 700 !important;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+
+.post{
+    background-color: white;
+    height: 600px;
+    width: 475px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 400px white;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-header img{
+    height: 30px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: 10px;
+}
+
+.header-izd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.post-header h1{
+    font-weight: 700 !important;
+    font-size: 20px;
+    margin: 0;
+}
+
+.post-header p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.post-header i{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.post-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-icons i{
+    font-size: 25px;
+}
+
+.left-icons{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.left-icons i:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-icons{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.post-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
